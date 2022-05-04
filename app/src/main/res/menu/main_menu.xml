@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="BtEnable"
+        android:icon="@drawable/bluetooth_enable"
+        android:id="@+id/id_bt_button"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="BtList"
+        android:icon="@drawable/menu"
+        android:id="@+id/id_menu"
+        android:orderInCategory="300"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:title="BtClear"
+        android:icon="@drawable/clear"
+        android:id="@+id/clear"
+        android:orderInCategory="180"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="BtHalf_zone"
+        android:icon="@drawable/half_zone"
+        android:id="@+id/half_zone"
+        android:orderInCategory="150"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="BtFull_zone"
+        android:icon="@drawable/full_zone"
+        android:id="@+id/full_zone"
+        android:orderInCategory="130"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

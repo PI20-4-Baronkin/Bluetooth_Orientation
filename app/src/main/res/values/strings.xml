@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BluetoothAdapter</string>
+    <string name="title_item_name">Найденные устройства:</string>
+    <string name="discovering">Поиск…</string>
+</resources>
